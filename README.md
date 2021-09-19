@@ -1,5 +1,7 @@
 # Tacotron Korean TTS implementation using Tensorflow2
 
+### [출처: https://github.com/chldkato/Tacotron-Korean-Tensorflow2.git](https://github.com/chldkato/Tacotron-Korean-Tensorflow2.git)
+
 ### Requirements
 * Python 3.7
 * tensorflow 2.0 이상
@@ -36,6 +38,7 @@
    ```
      * train1.py - train2.py 순으로 실행합니다
      * 저장한 모델이 있으면 가장 최근의 모델을 불러와서 재학습합니다
+     * 중지할 때까지 무한 loop
 
 5. **Synthesize**
    ```
@@ -51,3 +54,15 @@
   
 Tacotron 정리
   * https://chldkato.tistory.com/143
+
+## References
+  ```
+  preprocess.py
+  - tqdm
+  - pandas
+  - librosa
+
+  train1.py
+  - matplotlib
+
+  ```

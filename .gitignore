@@ -1,1 +1,6 @@
-Tacotron-Korean-Tensorflow2/kss/
+kss/
+venv/
+data/
+checkpoint/
+models/__pycache__/
+util/__pycache__/
